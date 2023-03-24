@@ -11,3 +11,6 @@ CSS:
 Most of my work for this project was done in the CSS sheet. This mostly consisted of me consolating/removing some of the redundant code. There were class items, in the footer for example, that could be grouped together without needing to apply a separate class for them. Additionally, several other classes had redundant code as well (.benefit-lead, .search-engine-optimization, .search-engine-optimization img etc)
 
 ![My website](2023-03-23-19-29-26.png)
+
+Here is a link to my website:
+https://mcampb8.github.io/first-challenge/
