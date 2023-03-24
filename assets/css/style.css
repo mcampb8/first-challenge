@@ -3,27 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+/*sets background color for entire page*/
 body {
     background-color: #d9dcd6;
 }
-
+/* sets standards for the header class*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* denotes display and font size for this class */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*sets text color for this class */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*sets location, font, and size for this class */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +31,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* removes bullet point list for this class */
 .header div ul {
     list-style-type: none;
 }
-
+/* sets display style for this class */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* sets text color for this element*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets font size for this element */
 p {
     font-size: 16px;
 }
-
+/* sets size and background image for this class */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +58,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* left location of this class*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* right location of this class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* sets size/display criteria for this class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* sets location, font, color, and size for this class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,23 +85,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* consolidated all benefit class tags*/
+/* Sets ctext color and margin for benefit classes*/
 .benefit-lead, .benefit-brand, .benefit-cost{
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*consolidated all benefit headers*/
+/*Sets margin and aligns text for all benefit classes*/
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3{
     margin-bottom: 10px;
     text-align: center;
 }
-/*consolidated all benefit images*/
+/*Sets display structure and size for all benefit images*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* grouped these classes*/
+/* Sets color, font, and parameters for all benefit classes*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,14 +119,11 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*sets font/size, aligns text for footer class */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
